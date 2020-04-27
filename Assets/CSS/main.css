@@ -13,7 +13,7 @@ body {
 .top-container {
 	background: #307d99 url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/2621168/bg_copy.jpg');
 	background-position: 12% 84%;
-	padding: 1.5em;
+	padding-bottom: 4em;
 	text-align: center;
 }
 
@@ -22,7 +22,8 @@ body {
 }
 
 .link {
-	margin-top: 0.3em;
+	/* margin-top: 0.3em; */
+	padding: 1rem 0;
 }
 
 #yummy {
@@ -32,7 +33,8 @@ body {
 }
 
 .header-container h1 {
-	margin-top: 3em;
+	margin-top: 2.5em;
+	margin-bottom: 3rem;
 	font-size: 2.5rem;
 }
 
@@ -43,5 +45,18 @@ body {
 }
 
 .header-container p {
-	margin-bottom: 3rem;
+	margin: 0 1rem 3rem;
+	line-height: 2rem;
+}
+
+.form-Subcontainer {
+	background: white;
+	margin: 2rem -1rem 0;
+	padding: 2rem;
+}
+
+label {
+	display: block;
+	/* margin: 0.7rem; */
+	font-size: 1.3rem;
 }
