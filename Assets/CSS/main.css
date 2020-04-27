@@ -112,8 +112,9 @@ input[type="button"] {
 	border-radius: .4rem;
 	font-weight: bold;
 	font-size: 1.3rem;
-	padding: 1em 0;
+	padding: .5em 0;
 	outline: none;
+	cursor: pointer;
 }
 
 input[type="button"]:hover {
@@ -152,6 +153,10 @@ img {
 }
 
 @media screen and (min-width: 769px) {
+	.form-Subcontainer {
+		margin-left: 2rem;
+		width: 70%;
+	}
 	.form-Subcontainer form {
 		display: flex;
 		text-align: left;
@@ -159,6 +164,12 @@ img {
 	.form-left {
 		width: 70%;
 	}
+	input[type="button"] {
+		width: 30%;
+		margin-left: 1rem;
+		margin-top: 4.3rem;
+		height: fit-content;
+	}
 }
-@media screen and (mix-width: 1024px) {
+@media screen and (mix-width: 960px) {
 }
