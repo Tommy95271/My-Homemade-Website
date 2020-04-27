@@ -144,7 +144,6 @@ input[type="button"]:hover {
 
 img {
 	width: 100%;
-	height: 100%;
 }
 
 @media screen and (min-width: 481px) {
@@ -176,7 +175,17 @@ img {
 	.bottom-container {
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
+		grid-template-areas: "dumpling bottom-content";
 	}
+
+	.bottom-content {
+		grid-area: bottom-content;
+	}
+
+	.bottom-container img {
+		grid-area: dumpling;
+	}
+
 	.bottom-content h1::before {
 		top: 1.6em;
 	}
