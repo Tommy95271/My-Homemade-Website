@@ -71,7 +71,7 @@ body {
 
 .form-Subcontainer {
 	background: white;
-	margin: 2rem -1rem 0;
+	margin: 1rem;
 	padding: 2em;
 }
 
@@ -142,4 +142,7 @@ input[type="button"]:hover {
 
 img {
 	width: 100%;
+}
+
+@media screen and (min-width: 481px) {
 }
