@@ -18,7 +18,7 @@ body {
 .overlay {
 	animation: overlay 2s forwards;
 	position: absolute;
-	height: 100vh;
+	height: 100%;
 	width: 100vw;
 	place-content: center;
 	z-index: 1;
