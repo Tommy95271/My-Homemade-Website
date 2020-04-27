@@ -93,6 +93,10 @@ input[type="text"] {
 	outline: none;
 }
 
+input[type="text"]:focus {
+	border: 1px solid #2cc08f;
+}
+
 .form-Subcontainer p {
 	margin: .4rem 1rem 1.2rem;
 	color: rgba(0, 0, 0, 0.5);
@@ -108,6 +112,11 @@ input[type="button"] {
 	font-weight: bold;
 	font-size: 1.3rem;
 	padding: 1em 0;
+	outline: none;
+}
+
+input[type="button"]:hover {
+	background: #bb7006;
 }
 
 .bottom-content {
