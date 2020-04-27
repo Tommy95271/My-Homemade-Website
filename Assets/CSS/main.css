@@ -71,7 +71,7 @@ body {
 
 .form-Subcontainer {
 	background: white;
-	margin: 1rem;
+	margin: 1rem 0;
 	padding: 2em;
 }
 
@@ -145,4 +145,8 @@ img {
 }
 
 @media screen and (min-width: 481px) {
+	.form-Subcontainer {
+		margin: 1rem;
+		border-radius: 1rem;
+	}
 }
