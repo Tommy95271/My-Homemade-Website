@@ -110,6 +110,16 @@ input[type="button"] {
 	padding: 1em 0;
 }
 
-.bottom-container {
+.bottom-content {
 	text-align: center;
+	margin: 3rem 1rem;
+	line-height: 2rem;
+}
+
+.bottom-content p {
+	font-weight: 400;
+}
+
+img {
+	width: 100%;
 }
