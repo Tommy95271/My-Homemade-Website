@@ -73,6 +73,7 @@ body {
 	background: white;
 	margin: 1rem 0;
 	padding: 2em;
+	border-radius: 1rem;
 }
 
 label {
@@ -83,7 +84,7 @@ label {
 }
 
 input[type="text"] {
-	width: 90%;
+	width: 100%;
 	border: 1px solid #707070;
 	box-sizing: border-box;
 	border-radius: .5rem;
@@ -147,6 +148,17 @@ img {
 @media screen and (min-width: 481px) {
 	.form-Subcontainer {
 		margin: 1rem;
-		border-radius: 1rem;
 	}
+}
+
+@media screen and (min-width: 769px) {
+	.form-Subcontainer form {
+		display: flex;
+		text-align: left;
+	}
+	.form-left {
+		width: 70%;
+	}
+}
+@media screen and (mix-width: 1024px) {
 }
