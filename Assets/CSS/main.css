@@ -114,6 +114,17 @@ input[type="button"] {
 	text-align: center;
 	margin: 3rem 1rem;
 	line-height: 2rem;
+	position: relative;
+}
+
+.bottom-content h1::before {
+	content: '';
+	position: absolute;
+	top: .8em;
+	background: rgb(56, 214, 253);
+	width: 7em;
+	height: .4em;
+	z-index: -1;
 }
 
 .bottom-content p {
