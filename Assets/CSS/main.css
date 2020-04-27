@@ -101,7 +101,7 @@ input[type="text"]:focus {
 	font-weight: 500;
 }
 
-input[type="button"] {
+#findFood {
 	background: #f89104;
 	color: white;
 	width: 100%;
@@ -114,7 +114,7 @@ input[type="button"] {
 	cursor: pointer;
 }
 
-input[type="button"]:hover {
+#findFood:hover {
 	background: #bb7006;
 }
 
@@ -161,7 +161,7 @@ img {
 	.form-left {
 		width: 70%;
 	}
-	input[type="button"] {
+	#findFood {
 		width: 30%;
 		margin-left: 1rem;
 		margin-top: 4.3rem;
