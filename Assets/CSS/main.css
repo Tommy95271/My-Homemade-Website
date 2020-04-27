@@ -11,6 +11,22 @@ body {
 	margin: 0;
 }
 
+#overlay {
+	display: none;
+}
+
+.overlay {
+	animation: overlay 2s forwards;
+	position: absolute;
+	height: 100vh;
+	width: 100vw;
+	place-content: center;
+	z-index: 1;
+	opacity: 1;
+	color: white;
+	background: rgba(0, 0, 0, 0.8);
+}
+
 .wrapper {
 	margin: 0;
 }
@@ -71,6 +87,11 @@ body {
 	margin: 1rem 0;
 	padding: 2em;
 	border-radius: 1rem;
+}
+
+.header-container,
+.form-Subcontainer {
+	animation: fadeIn 2s forwards;
 }
 
 label {
@@ -143,6 +164,32 @@ img {
 	width: 100%;
 }
 
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+		transform: translateY(-2em);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+@keyframes overlay {
+	0% {
+		opacity: 0;
+	}
+	30% {
+		opacity: 1;
+	}
+	70% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
 @media screen and (min-width: 481px) {
 	.form-Subcontainer {
 		margin: 1rem;
@@ -150,8 +197,15 @@ img {
 }
 
 @media screen and (min-width: 769px) {
+	.top-container {
+		padding-left: 2rem;
+	}
+
+	.header-container {
+		width: 80%;
+	}
+
 	.form-Subcontainer {
-		margin-left: 2rem;
 		width: 70%;
 	}
 	.form-Subcontainer form {
