@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
-* {
-	/* margin: 0;
-	padding: 0; */
-}
+
 :root {
 	--leading: #307d99;
 	font-size: 16px;
